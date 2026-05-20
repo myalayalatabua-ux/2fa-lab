@@ -1,0 +1,11 @@
+# FILE: .gitignore
+.env
+vendor/
+*.log
+
+# FILE: composer.json (already created in Lab I)
+# Railway will run 'composer install' automatically on deploy
+
+# FILE: Procfile (tells Railway how to serve PHP)
+# Create a file named 'Procfile' (no extension) with this content:
+web: heroku-php-apache2 .
