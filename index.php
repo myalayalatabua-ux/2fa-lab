@@ -1,2 +1,2 @@
 <?php
-echo "RAILWAY IS WORKING";
+echo "RAILWAY OK";
