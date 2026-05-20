@@ -1,2 +1,4 @@
 <?php
-echo "RAILWAY OK";
+header('Location: login.php');
+exit;
+?>

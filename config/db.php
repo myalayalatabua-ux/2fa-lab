@@ -19,6 +19,6 @@ try {
     );
 } catch (PDOException $e) {
     error_log('DB Connection failed: ' . $e->getMessage());
-    die('Database connection error. Please try again later.');
+    die('Database connection error.');
 }
 ?>
